@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certification demo UI</title>
+  <link rel="stylesheet" href="./app.css" type="text/css" />
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Project: Certification</h1> 
+
+  <div class="section">
+    <div class="container">
+      <div>
+        Active account: &nbsp;
+        <select id="account-select">
+        </select>
+      </div>
+      <div> 
+        balance is <span id="balance">Loading...</span> Wei
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div> create Diploma:  <button id="create-diploma">create</button> </div>
+    <div> diploma hash: <span id="diploma-hash"></span> </div>
+  </div>
+
+  <div class="section">
+    <h1>create update certification</h1>
+    <div>
+      <div>student: <select id="student-select"> </select> </div>
+      <div>name: <input name="name-input" type="text"/> </select> </div>
+      <div>date of birth:  <input name="dob-input" type="text"/> </div>
+      <div> <button id="create-cert">create a certification</button></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h1>request certificate</h1>
+    <div>
+      <div>student: <span id="student"></span> </select> </div>
+      <div>name: <pan id="name"></pan> </select> </div>
+      <div>date of birth:  <span id="dob"></span> </div>
+      <div>diplomas: <span id="diplomas"></span></div>
+      <div> <button id="retrieve-cert">retrieve certificate</button></div>
+    </div>
+  </div>
+  
+
+ 
+  <hr>
+  <div id="status"></div>
+</body>
+</html>
