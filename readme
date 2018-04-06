@@ -1,0 +1,7 @@
+commands:
+- npm install 
+- truffle migrate
+- truffle develop (separate cmd window)
+- ./node_modules/.bin/live-server ./build (in a separate cmd window)
+- ./node_modules/.bin/webpack -d (prepare html and js for deployment)
+- localhost:8080 (in a web browsser)
